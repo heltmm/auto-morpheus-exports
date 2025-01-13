@@ -1,0 +1,6 @@
+resource "file-content" "580a68f3-e47d-4286-b8a6-c9a0b26e9a24" {
+  uuid = "580a68f3-e47d-4286-b8a6-c9a0b26e9a24"
+  content = "echo hello"
+  dateCreated = "2025-01-13T15:39:52.622Z"
+  lastUpdated = "2025-01-13T15:39:52.622Z"
+}

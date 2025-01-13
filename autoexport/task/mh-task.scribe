@@ -1,0 +1,15 @@
+resource "task" "mh-task" {
+  name = "mh-task"
+  uuid = "5048e2e5-5f1d-45d4-a2e9-13120c39a68a"
+  dateCreated = "2025-01-13T15:39:52.610Z"
+  executeTarget = "resource"
+  labels = [ "autoexport" ]
+  lastUpdated = "2025-01-13T15:39:52.653Z"
+  options = [
+    {
+      content = { uuid = "580a68f3-e47d-4286-b8a6-c9a0b26e9a24" }
+      optionType = { code = "script" }
+    }
+  ]
+  taskType = { code = "script" }
+}
